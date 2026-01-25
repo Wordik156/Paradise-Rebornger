@@ -8,6 +8,7 @@ using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
 using Robust.Shared.Utility;
+using Content.Shared._ERPModule.Data; // LP edit
 
 namespace Content.Shared.Humanoid;
 
@@ -29,6 +30,11 @@ public sealed partial class HumanoidAppearanceComponent : Component
 
     [DataField, AutoNetworkedField]
     public Gender Gender;
+
+    // LP edit start
+    [DataField, AutoNetworkedField]
+    public ErpStatus ErpStatus;
+    // LP edit end
 
     [DataField, AutoNetworkedField]
     public int Age = 18;
@@ -100,15 +106,6 @@ public sealed partial class HumanoidAppearanceComponent : Component
     /// </summary>
     [DataField]
     public HashSet<HumanoidVisualLayers> HideLayersOnEquip = [HumanoidVisualLayers.Hair];
-
-    /// <summary>
-    ///     Which markings the humanoid defaults to when nudity is toggled off.
-    /// </summary>
-    [DataField]
-    public ProtoId<MarkingPrototype>? UndergarmentTop = new ProtoId<MarkingPrototype>("UndergarmentTopTanktop");
-
-    [DataField]
-    public ProtoId<MarkingPrototype>? UndergarmentBottom = new ProtoId<MarkingPrototype>("UndergarmentBottomBoxers");
 
     /// <summary>
     ///     The displacement maps that will be applied to specific layers of the humanoid.
