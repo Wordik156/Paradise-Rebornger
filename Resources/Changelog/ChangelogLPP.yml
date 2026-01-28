@@ -133,3 +133,10 @@ Entries:
   id: 5622
   time: '2026-01-28T14:24:55.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Paradise-Rebornger/pull/19
+- author: Evgencheg
+  changes:
+    - type: Add
+      message: Добавлены подписи бумаги!
+  id: 5623
+  time: '2026-01-28T14:25:36.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Paradise-Rebornger/pull/17
