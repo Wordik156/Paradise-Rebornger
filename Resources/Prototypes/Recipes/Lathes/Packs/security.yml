@@ -139,3 +139,9 @@
   recipes:
   - WeaponDisabler
   - WeaponDisablerSMG
+
+- type: latheRecipePack # Модули для боргов
+  id: SecurityModuls 
+  recipes:
+  - LPBorgModuleSecurityWeapon
+  - LPBorgModuleSecurityLaserCarbine

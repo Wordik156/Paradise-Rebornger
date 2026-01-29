@@ -396,6 +396,7 @@
     - SecurityAmmo
     - SecurityWeapons
     - SecurityDisablers
+    - SecurityModuls # Модули для боргов
   - type: EmagLatheRecipes
     emagStaticPacks:
     - SyndicateAmmoStatic
