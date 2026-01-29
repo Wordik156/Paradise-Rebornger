@@ -1,2 +1,15 @@
-ent-LPPBorgSecurityGeneric = Security borg
+ent-LPPBorgSecurityGeneric = security chellnock
     .desc = { ent-BaseBorgChassisNT.desc }
+ent-LPBorgModuleSecurityWeapon = security weapon cyborg module
+    .desc = A module containing non-lethal security equipment.
+ent-LPBorgModuleSecurityLaserCarbine = security laser cyborg module
+    .desc = A module containing a lethal laser weapon for extreme situations.
+ent-LPStunbatonBorgSec = { ent-Stunbaton }
+    .suffix = Cyborg, Security
+    .desc = { ent-Stunbaton.desc }
+ent-LPWeaponDisablerBorgSec = { ent-WeaponDisabler }
+    .suffix = Cyborg, Security
+    .desc = { ent-WeaponDisabler.desc }
+ent-LPWeaponLaserCarbineBorgSec = { ent-WeaponLaserCarbine }
+    .suffix = Cyborg, Security
+    .desc = { ent-WeaponLaserCarbine.desc }

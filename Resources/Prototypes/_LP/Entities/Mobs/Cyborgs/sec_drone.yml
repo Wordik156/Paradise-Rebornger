@@ -49,20 +49,21 @@
     layers:
     - state: robot
     - state: robot_e_r
-      map: ["enum.GunVisualLayers.Base"]
+      map: ["enum.BorgVisualLayers.Light"]
       shader: unshaded
       visible: false
     - state: robot_l
       shader: unshaded
       map: ["light"]
       visible: false
+
   - type: BorgChassis
     maxModules: 4
     moduleWhitelist:
       tags:
       - BorgModuleGeneric
     hasMindState: robot_e
-    noMindState: robot_e_r
+    noMindState: robot
   - type: Speech
     speechVerb: Robotic
   - type: ItemSlots
@@ -92,7 +93,6 @@
   - type: FlashImmunity
 
 # === МОДУЛИ ДЛЯ БОРГОВ ===
-
 # Модуль с оружием (станбатон + дизейблер)
 - type: entity
   id: LPBorgModuleSecurityWeapon
@@ -100,10 +100,10 @@
   name: security weapon cyborg module
   description: A module containing non-lethal security equipment.
   components:
-  - type: Sprite
-    layers:
-    - state: xenoborg_heavy # ЗАМЕНИТЬ 
-    - state: icon-xenoborg-laser # ЗАМЕНИТЬ 
+  # - type: Sprite
+  #   layers:
+  #   - state: xenoborg_heavy # ЗАМЕНИТЬ 
+  #   - state: icon-xenoborg-laser # ЗАМЕНИТЬ 
   - type: ItemBorgModule
     hands:
     - item: LPStunbatonBorgSec
@@ -117,8 +117,8 @@
           - Handcuffs
   - type: BorgModuleIcon
     icon: 
-      - sprite: Interface/Actions/actions_borg.rsi
-      - state: xenoborg-laser-module # ЗАМЕНИТЬ 
+      sprite: Interface/Actions/actions_borg.rsi
+      state: xenoborg-laser-module # ЗАМЕНИТЬ 
   - type: Item
     inhandVisuals:
       left:
@@ -145,17 +145,17 @@
   name: security laser cyborg module
   description: A module containing a lethal laser weapon for extreme situations.
   components:
-  - type: Sprite
-    layers:
-    - state: xenoborg_heavy # ЗАМЕНИТЬ 
-    - state: icon-xenoborg-laser2 # ЗАМЕНИТЬ 
+  # - type: Sprite
+  #   layers:
+  #   - state: xenoborg_heavy # ЗАМЕНИТЬ 
+  #   - state: icon-xenoborg-laser2 # ЗАМЕНИТЬ 
   - type: ItemBorgModule
     hands:
     - item: LPWeaponLaserCarbineBorgSec
   - type: BorgModuleIcon
     icon: 
-    - sprite: Interface/Actions/actions_borg.rsi
-    - state: xenoborg-laser2-module # ЗАМЕНИТЬ 
+      sprite: Interface/Actions/actions_borg.rsi
+      state: xenoborg-laser2-module # ЗАМЕНИТЬ 
   - type: StaticPrice
     price: 1500
   - type: Item
@@ -170,7 +170,6 @@
         color: "#8B0000"
 
 # === ОРУЖИЕ С САМОЗАРЯДКОЙ ===
-
 # Станбатон с самозарядкой
 - type: entity
   id: LPStunbatonBorgSec
@@ -199,4 +198,4 @@
   components:
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 30
+    autoRechargeRate: 30 # ~0.5 выстрелов в секунду или ~32 секунды на полную зарядку.
