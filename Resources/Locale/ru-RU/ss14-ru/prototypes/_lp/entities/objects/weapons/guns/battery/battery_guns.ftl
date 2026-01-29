@@ -1,0 +1,9 @@
+ent-LPStunbatonBorgSec = { ent-Stunbaton }
+    .suffix = Cyborg, Security
+    .desc = { ent-Stunbaton.desc }
+ent-LPWeaponDisablerBorgSec = { ent-WeaponDisabler }
+    .suffix = Cyborg, Security
+    .desc = { ent-WeaponDisabler.desc }
+ent-LPWeaponLaserCarbineBorgSec = { ent-WeaponLaserCarbine }
+    .suffix = Cyborg, Security
+    .desc = { ent-WeaponLaserCarbine.desc }

@@ -1,15 +1,2 @@
 ent-LPPBorgSecurityGeneric = Патрульный борг
     .desc = { ent-BaseBorgChassisNT.desc }
-ent-LPBorgModuleSecurityWeapon = Модуль нелетального снаряжения
-    .desc = Модуль с нелетальным снаряжением для боргов службы безопасности, содержит тайзер, станбатон и наручники.
-ent-LPBorgModuleSecurityLaserCarbine = Модуль с лазерным карабином
-    .desc = Модуль с летальным снаряжением для боргов службы безопасности, содержит лазерный карабин.
-ent-LPStunbatonBorgSec = { ent-Stunbaton }
-    .suffix = Cyborg, Security
-    .desc = { ent-Stunbaton.desc }
-ent-LPWeaponDisablerBorgSec = { ent-WeaponDisabler }
-    .suffix = Cyborg, Security
-    .desc = { ent-WeaponDisabler.desc }
-ent-LPWeaponLaserCarbineBorgSec = { ent-WeaponLaserCarbine }
-    .suffix = Cyborg, Security
-    .desc = { ent-WeaponLaserCarbine.desc }
