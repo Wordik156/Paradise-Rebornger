@@ -1,0 +1,14 @@
+# Модули боргов в протолате или как его блять? - надеюсь я это удалю
+- type: latheRecipe 
+  id: LPBorgModuleSecurityWeapon
+  result: TelescopicShLPBorgModuleSecurityWeaponield
+  materials:
+    Steel: 300
+    Glass: 800
+
+- type: latheRecipe 
+  id: LPBorgModuleSecurityLaserCarbine
+  result: LPBorgModuleSecurityLaserCarbine
+  materials:
+    Steel: 300
+    Glass: 800
