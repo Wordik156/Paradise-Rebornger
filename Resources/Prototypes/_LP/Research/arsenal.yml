@@ -2,7 +2,7 @@
 
 # Tier 2
 - type: technology
-  id: LPBorgModuleSecurityAllow
+  id: LPPBorgModuleSecurityAllow
   name: research-technology-borg-module-security
   icon:
     sprite: _LP/Objects/Specific/Robotics/borgmodule.rsi
@@ -11,5 +11,5 @@
   tier: 2
   cost: 10000
   recipeUnlocks:
-  - LPBorgModuleSecurityWeapon
-  - LPBorgModuleSecurityLaserCarbine
+  - LPPBorgModuleSecurityWeapon
+  - LPPBorgModuleSecurityLaserCarbine

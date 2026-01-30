@@ -1,5 +1,5 @@
-ent-LPBorgModuleSecurityWeapon = Модуль нелетального снаряжения
+ent-LPPBorgModuleSecurityWeapon = Модуль нелетального снаряжения
     .desc = Модуль с нелетальным снаряжением для боргов службы безопасности, содержит тайзер, станбатон и наручники.
-ent-LPBorgModuleSecurityLaserCarbine = Модуль с лазерным карабином
+ent-LPPBorgModuleSecurityLaserCarbine = Модуль с лазерным карабином
     .desc = Модуль с летальным снаряжением для боргов службы безопасности, содержит лазерный карабин.
 borg-slot-handcuffs-empty = Пусто

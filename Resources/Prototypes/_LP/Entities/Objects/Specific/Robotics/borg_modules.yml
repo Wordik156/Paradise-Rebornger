@@ -3,7 +3,7 @@
 
 # Модуль с оружием (станбатон + дизейблер)
 - type: entity
-  id: LPBorgModuleSecurityWeapon
+  id: LPPBorgModuleSecurityWeapon
   parent: [BaseBorgModule, BaseProviderBorgModule, BaseSecurityContraband]
   name: security weapon cyborg module
   description: A module containing non-lethal security equipment.
@@ -15,8 +15,8 @@
       - state: icon-arest
   - type: ItemBorgModule
     hands:
-    - item: LPStunbatonBorgSec
-    - item: LPWeaponDisablerBorgSec
+    - item: LPPStunbatonBorgSec
+    - item: LPPWeaponDisablerBorgSec
     - item: Handcuffs # одни наручники, может дать больше?
       hand:
         emptyLabel: borg-slot-handcuffs-empty
@@ -50,7 +50,7 @@
 
 # Модуль с лазерной самозарядным карабином, баланс - только одна рука (низкая точность)
 - type: entity
-  id: LPBorgModuleSecurityLaserCarbine
+  id: LPPBorgModuleSecurityLaserCarbine
   parent: [BaseBorgModule, BaseProviderBorgModule, BaseSecurityContraband]
   name: security laser cyborg module
   description: A module containing a lethal laser weapon for extreme situations.
@@ -62,7 +62,7 @@
       - state: icon-laser-r
   - type: ItemBorgModule
     hands:
-    - item: LPWeaponLaserCarbineBorgSec
+    - item: LPPWeaponLaserCarbineBorgSec
   - type: BorgModuleIcon
     icon: 
       sprite: Interface/Actions/actions_borg.rsi

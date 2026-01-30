@@ -68,8 +68,8 @@
       borg_brain:
       - PositronicBrain
       borg_module:
-      - LPBorgModuleSecurityWeapon
-      - LPBorgModuleSecurityLaserCarbine
+      - LPPBorgModuleSecurityWeapon
+      - LPPBorgModuleSecurityLaserCarbine
       - BorgModuleTool
   - type: Access
     groups:
