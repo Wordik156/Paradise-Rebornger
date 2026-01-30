@@ -20,13 +20,11 @@
     - Common
     - Security
     - Command
-  
   - type: MobThresholds
     thresholds:
       0: Alive 
       300: Critical
       500: Dead 
-
   - type: AmbientSound
     enabled: true
     range: 4
@@ -34,13 +32,11 @@
     sound:
       path: /Audio/Effects/shuttle_thruster.ogg
   - type: FootstepModifier
-    footstepSoundCollection: null
-      
+    footstepSoundCollection: null      
   - type: MovementSpeedModifier
     baseWalkSpeed: 5
     baseSprintSpeed: 9
   - type: MovementIgnoreGravity
-
   - type: Sprite
     sprite: _LP/Mobs/Silicon/sec_drone.rsi
     layers:
@@ -53,7 +49,6 @@
       shader: unshaded
       map: ["light"]
       visible: false
-
   - type: BorgChassis
     maxModules: 4
     moduleWhitelist:
@@ -76,7 +71,6 @@
       - LPBorgModuleSecurityWeapon
       - LPBorgModuleSecurityLaserCarbine
       - BorgModuleTool
-
   - type: Access
     groups:
     - AllAccess
